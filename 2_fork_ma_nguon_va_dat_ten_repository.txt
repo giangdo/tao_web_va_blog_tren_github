@@ -1,0 +1,38 @@
+* Để sao chép mã nguồn của theme từ tài khoản của tác giả đến tài khoản của mình ta dùng tính năng fork của github:
+	+ Truy cập vào github bằng tài khoản của mình, sau đó đi đến trang 	
+		https://github.com/t413/SinglePaged
+
+	+ Chọn nút Fork ở góc phải phía trên của trang này
+
+	+ Sau khi fork xong thì ta sẽ có một reposity giống hệt với t413/SinglePaged 
+		Ví dụ tài khoản github của mình là taikhoan thì repository của mình có thể được truy cập tới qua địa chỉ https://github.com/taikhoan/SinglePaged/
+
+	+ Đổi tên repository theo ý muốn:
+		- Chọn biểu tượng bánh răng (Settings) ở phía bên phải trang để vào xem tùy chỉnh của repository ở địa chỉ https://github.com/taikhoan/SinglePaged/settings 
+		- Thay đổi tên	trong mục "Repository name" và chọn Rename
+		- Giả sử ta chọn tên là "website" (địa chỉ tới repository này sẽ thay đổi theo)
+
+* Ngay tại lúc này, để xem địa chỉ trang web mà github giúp mình tạo ra:
+	+ Truy cập tới https://github.com/taikhoan/website/
+
+	+ Chọn biểu tượng bánh răng (Settings) ở phía bên phải trang để vào xem tùy chỉnh của repository.
+
+	+ Ở đoạn GitHub Pages ta sẽ thấy một đoạn sau:
+		Your site is ready to be published at http://taikhoan.github.io/website. 
+
+	+ Chúc mừng bạn! Bạn đã có một trang web riêng ở địa chỉ http://taikhoan.github.io/website. 
+
+* Cách đặt tên của repository sẽ ảnh hưởng đến địa chỉ của website miễn phí mà github tạo ra cho mình:
+	+ Nếu muốn tạo trang web cho cá nhân hay tổ chức, tức là ta muốn địa chỉ trang web ngắn và có dạng sau: http://taikhoan.github.io
+		-> Ta phải đặt tên repository trùng với đúng tên tài khoản cộng với .github.io 
+			Trong trường hợp này, do tên tài khoản github là taikhoan ta sẽ phải đặt tên repository là taikhoan.github.io
+
+			Website được tạo ra sẽ dựa trên nhánh master của repository này.
+
+	+ Nếu muốn tạo trang web cho một dự án trong repository này, ta chỉ cần chọn tên khác với phía trên (tức là khác taikhoan.github.io)   
+		-> Khi đặt tên reporitory là tenproject, github sẽ tạo ra địa chỉ miễn phí là 
+			http://taikhoan.github.io/tenproject
+
+			Website được tạo ra sẽ dựa trên nhánh gh-pages của repository này.	
+			
+* Tất nhiên bạn cũng có thể thay đổi địa chỉ tên miền của trang web được tạo ra bởi repository này theo ý bạn muốn (mình sẽ nói sau)
