@@ -7,4 +7,6 @@ Nhất là đối với các bạn biết về công nghệ thông tin thì vi�
 
 Chỉ cần vài thao tác đơn giản và một chút hiểu biết về công cụ quản lý mã nguồn git + ngôn ngữ markdown là các bạn có thể có được website và blog của riêng mình.
 
+Bật mí: Các bạn sẽ ko cần biết về CSS/HTML hay ruby/python để tạo trang web/blog, còn ngữ pháp của Markdown thì dễ như ăn kẹo :D 
+
 (Trong hướng dẫn này, người viết sử dụng desktop ubuntu 14.04 để thực hiện)
