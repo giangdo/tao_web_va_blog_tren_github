@@ -1,0 +1,20 @@
+* Có rất nhiều theme miễn phí để chúng ta chọn, và tất nhiên tuy miễn phí nhưng vẫn rất đẹp.
+  Một số trang nổi tiếng chứa những theme đẹp như:
+		https://drjekyllthemes.github.io
+		http://startbootstrap.com (trang này có tính năng trả tiển để được hỗ trợ thêm)
+
+* Ngoài ra, chúng ta còn có rất nhiều nguồn khác nữa, bạn có thể dùng từ khóa sau để tìm trên google và github:
+	  "jekyll theme"
+	  "website jekyll theme"
+	  "blog jekyll theme"
+
+* Có hai lưu ý khi chọn theme:
+	+ Một là các bạn nên chọn những theme mà có source code của nó có trên github để dễ dàng sử dụng
+	+ Hai là những theme này phải tương thích với github page, tức là có thể host website này trên github page (chỗ host website khác với chỗ host source code cho website, github là nơi chứa source code, github page là nơi chứa website đã được tạo ra từ source code)
+
+* Trong hướng dẫn này mình sẽ sử dụng theme từ những nguồn sau để làm ví dụ:
+	+ Tạo website -> dùng theme single page
+		http://t413.com/SinglePaged/
+
+	+ Tạo blog -> dùng theme freshman21
+		http://yulijia.net/freshman21/
