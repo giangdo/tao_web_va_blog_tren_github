@@ -1,0 +1,37 @@
+* Cài đặt jekyll-serve để có thể chạy thử website trên máy ubuntu 14.04: (tham khảo: https://help.github.com/articles/using-jekyll-with-pages/)
+	+ Cài đặt ruby (tham khảo https://gorails.com/setup/ubuntu/14.04)
+	  	- Cài đặt những gói phụ thuộc:
+	  		$sudo apt-get update
+	  		$sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3
+	  		$sudo apt-get install libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+	
+	  	- Dùng rbenv để cài đặt ruby phiên bản 2.2.3 (do jekyll chỉ chạy được với phiên bản ruby 2.0 trở lên)
+	  		$cd
+	  		$git clone git://github.com/sstephenson/rbenv.git .rbenv
+	  		$echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+	  		$echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+	  		$exec $SHELL
+	  		
+	  		$git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+	  		$echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+	  		$exec $SHELL
+	  		
+	  		$git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+	  		
+	  		$rbenv install 2.2.3
+	  		$rbenv global 2.2.3
+	  		$ruby -v
+	
+	+ Dùng gem để cài đặt bundler: (bundler là chương trình quản lý gói của phần mềm ruby)
+		$echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+		$gem install bundler
+	
+	+ Dùng gem để cài đặt jekyll: (jekyll là chương trình ruby tạo ra website tĩnh từ mã nguồn)
+		$source 'https://rubygems.org'
+		$gem 'github-pages'
+
+* Dùng jekyll để tạo ra website chạy trên máy ở địa chỉ localhost:4000
+	$cd thư_mục_gốc_của_mã_nguồn
+	$jekyll serve -w
+
+* Dùng bất kỳ một trình duyệt web nào, gõ vào địa chỉ localhost:4000 ta sẽ thấy nội dung trang web.
